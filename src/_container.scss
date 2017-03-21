@@ -3,6 +3,7 @@
 .container-fluid {
   overflow-y: auto;
   padding: 0 $width-gap $width-gap;
+  width: 100%;
 }
 
 .container {
@@ -11,4 +12,12 @@
 
 .container-wider {
   max-width: $max-width-container-wider;
+}
+
+@media (max-width: $width-breakpoint - 1px) {
+  .container,
+  .container-wider,
+  .container-fluid {
+    width: auto;
+  }
 }
