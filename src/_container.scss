@@ -6,6 +6,13 @@
   flex-grow: 1;
 }
 
+@media (min-width: $width-breakpoint) {
+  .container-wider,
+  .container-fluid {
+    padding: 0 $width-gap * 4 $width-gap;
+  }
+}
+
 .container {
   max-width: $max-width-container;
 }
