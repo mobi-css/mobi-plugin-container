@@ -1,5 +1,5 @@
 /*!
- * mobi-plugin-container v0.1.9
+ * mobi-plugin-container v0.1.10
  * https://mobi-css.github.io/mobi-plugin-container/
  */
 
@@ -12,12 +12,6 @@
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1; }
-
-@media (min-width: 768px) {
-  .container,
-  .container-wider,
-  .container-fluid {
-    padding: 0 6rem 1.5rem; } }
 
 .container {
   max-width: 800px; }
