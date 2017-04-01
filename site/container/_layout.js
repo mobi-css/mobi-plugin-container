@@ -13,11 +13,7 @@ module.exports = ({ title, content, relativeToRoot }) => `
     <link rel="stylesheet" href="${relativeToRoot}/css/mobi-plugin-container.min.css" />
   </head>
   <body>
-    <div class="flex-center">
-      <div class="container">
-        ${content}
-      </div>
-    </div>
+    ${content}
   </body>
 </html>
 `;

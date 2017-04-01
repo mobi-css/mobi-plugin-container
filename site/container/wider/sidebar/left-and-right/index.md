@@ -1,7 +1,8 @@
 <div class="flex-center">
-<div class="container-wider flex-left flex-wrap units-gap-big">
+<div class="container-wider">
+<div class="flex-left units-gap-big">
 
-<div class="unit-1-4 unit-1-on-mobile">
+<div class="unit-0 hide-on-mobile" style="width:200px">
 
 ## Sidebar
 
@@ -13,18 +14,23 @@ Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante so
 
 </div>
 
-<div class="unit-3-4 unit-1-on-mobile">
+<div class="unit">
 
-# Container Wider with Sidebar
+# Container Wider with Left and Right Sidebar
 
 ```html
 <div class="flex-center">
-  <div class="container-wider flex-left flex-wrap units-gap-big">
-    <div class="unit-1-4 unit-1-on-mobile">
-      Sidebar
-    </div>
-    <div class="unit-3-4 unit-1-on-mobile">
-      Content
+  <div class="container-wider">
+    <div class="flex-left units-gap-big">
+      <div class="unit-0 hide-on-mobile" style="width:200px">
+        Sidebar
+      </div>
+      <div class="unit">
+        Content
+      </div>
+      <div class="unit-0 hide-on-mobile" style="width:200px">
+        Sidebar
+      </div>
     </div>
   </div>
 </div>
@@ -46,5 +52,18 @@ Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante so
 
 </div>
 
+<div class="unit-0 hide-on-mobile" style="width:200px">
+
+## Sidebar
+
+Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+### Image
+
+![Random Image](http://lorempixel.com/300/200/)
+
+</div>
+
+</div>
 </div>
 </div>

@@ -1,8 +1,4 @@
-/*!
- * mobi-plugin-container v0.1.10
- * https://mobi-css.github.io/mobi-plugin-container/
- */
-
+/*! mobi-plugin-container v0.1.10 https://mobi-css.github.io/mobi-plugin-container/ */
 .container,
 .container-wider,
 .container-fluid {
@@ -14,7 +10,7 @@
           flex-grow: 1; }
 
 .container {
-  max-width: 800px; }
+  max-width: 80rem; }
 
 .container-wider {
-  max-width: 1200px; }
+  max-width: 120rem; }

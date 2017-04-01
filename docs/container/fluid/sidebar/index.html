@@ -10,11 +10,12 @@
     <title>Container Fluid with Sidebar</title>
 
     <link rel="stylesheet" href="https://unpkg.com/mobi.css/dist/mobi.min.css" />
-    <link rel="stylesheet" href="../../css/mobi-plugin-container.min.css" />
+    <link rel="stylesheet" href="../../../css/mobi-plugin-container.min.css" />
   </head>
   <body>
     <div class="flex-center">
-<div class="container-fluid flex-left flex-wrap units-gap-big">
+<div class="container-fluid">
+<div class="flex-left flex-wrap units-gap-big">
 <div class="unit-0 unit-1-on-mobile" style="width:300px">
 <h2 id="sidebar">Sidebar</h2>
 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
@@ -24,12 +25,14 @@
 <div class="unit">
 <h1 id="container-fluid-with-sidebar">Container Fluid with Sidebar</h1>
 <pre><code class="language-html">&lt;div class=&quot;flex-center&quot;&gt;
-  &lt;div class=&quot;container-fluid flex-left flex-wrap units-gap-big&quot;&gt;
-    &lt;div class=&quot;unit-0 unit-1-on-mobile&quot; style=&quot;width:300px&quot;&gt;
-      Sidebar
-    &lt;/div&gt;
-    &lt;div class=&quot;unit&quot;&gt;
-      Content
+  &lt;div class=&quot;container-wider&quot;&gt;
+    &lt;div class=&quot;flex-left flex-wrap units-gap-big&quot;&gt;
+      &lt;div class=&quot;unit-0 unit-1-on-mobile&quot; style=&quot;width:300px&quot;&gt;
+        Sidebar
+      &lt;/div&gt;
+      &lt;div class=&quot;unit&quot;&gt;
+        Content
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -44,6 +47,7 @@
 <li>Nulla vel metus scelerisque ante sollicitudin.</li>
 <li>Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</li>
 </ul>
+</div>
 </div>
 </div>
 </div>

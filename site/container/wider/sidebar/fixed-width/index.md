@@ -1,5 +1,6 @@
 <div class="flex-center">
-<div class="container-fluid flex-left flex-wrap units-gap-big">
+<div class="container-wider">
+<div class="flex-left flex-wrap units-gap-big">
 
 <div class="unit-0 unit-1-on-mobile" style="width:300px">
 
@@ -15,16 +16,18 @@ Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante so
 
 <div class="unit">
 
-# Container Fluid with Sidebar
+# Container Wider with Fixed Width Sidebar
 
 ```html
 <div class="flex-center">
-  <div class="container-fluid flex-left flex-wrap units-gap-big">
-    <div class="unit-0 unit-1-on-mobile" style="width:300px">
-      Sidebar
-    </div>
-    <div class="unit">
-      Content
+  <div class="container-wider">
+    <div class="flex-left flex-wrap units-gap-big">
+      <div class="unit-0 unit-1-on-mobile" style="width:300px">
+        Sidebar
+      </div>
+      <div class="unit">
+        Content
+      </div>
     </div>
   </div>
 </div>
@@ -46,5 +49,6 @@ Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante so
 
 </div>
 
+</div>
 </div>
 </div>
