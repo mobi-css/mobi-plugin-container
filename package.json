@@ -1,7 +1,7 @@
 {
   "name": "mobi-plugin-container",
   "version": "0.1.12",
-  "description": "The container plugin for Mobi.css",
+  "description": "Three types of containers: normal, wider and fluid.",
   "main": "index.scss",
   "scripts": {
     "start": "gulp",
@@ -41,13 +41,13 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
-    "pagic": "^0.4.1",
+    "pagic": "^0.6.0",
     "rimraf": "^2.5.4",
     "run-sequence": "^1.2.2",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0"
   },
   "dependencies": {
-    "mobi-theme-base": "^0.2.5"
+    "mobi-theme-base": "^0.2.6"
   }
 }
