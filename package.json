@@ -1,6 +1,6 @@
 {
   "name": "mobi-plugin-container",
-  "version": "0.1.13",
+  "version": "1.0.0",
   "description": "Three types of containers: normal, wider and fluid.",
   "main": "index.scss",
   "scripts": {
